@@ -15,9 +15,12 @@ public class GabrielAtv2 {
 
             if (senha.equals(usuario)) {
                 System.out.println("Erro:A senha não pode ser igual ao nome de usuário. Tente novamente.\n");
+                //equals serve para comparar conteúdos de objetos, no caso de Strings, se o texto é igual
+
             } else{
                 System.out.println("Cadastro realizado com sucesso");
                 break;
+                //break encerra o looping
             }
         }
 

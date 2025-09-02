@@ -5,6 +5,8 @@ public class GabrielAtv1 {
         Scanner scanner=new Scanner(System.in);
         double nota;
 
+        //double dado primitivo usado para armazenar números decimais
+
         while(true){
             System.out.println("Digite uma nota entre 0 e 10: ");
             nota=scanner.nextDouble();
